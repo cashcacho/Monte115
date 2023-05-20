@@ -1,4 +1,4 @@
-#difference between tk and ttk. ttk adds styles to the buttons like the font, text 
+#Insert class library. Difference between tk and ttk. ttk adds styles to the buttons like the font, text 
 import tkinter as tk
 from tkinter import ttk
 
@@ -9,6 +9,6 @@ def on_select(event):
     print(Selected item:", selected_item")
 
 
-#hey
+#create a root window and widget object
     root = tk.Tk()
     root.title("Combobox Example")
